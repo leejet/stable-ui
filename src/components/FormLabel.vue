@@ -13,7 +13,7 @@ const props = defineProps<{
     <span class="align-vertical" :style="labelStyle || 'height: 100%;'">
         <slot>{{label}}</slot>
         <div v-if="info" class="align-vertical" style="margin-left: 5px">
-            <info-tooltip :info="info" :size="15" />
+            <info-tooltip :info="typeof info === 'function' ? info() : info" :size="15" />
         </div>
     </span>
 </template>
