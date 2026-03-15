@@ -6,9 +6,25 @@ import BaseLink from '@/components/BaseLink.vue';
   <div class="about">
     <div class="about-content">
         <h1 style="margin-top: 0">Stable UI</h1>
-        <div>This tool was originally a front-end for the AI Horde and has since been converted for local generations with the A1111 API, such as in <a href="https://github.com/LostRuins/koboldcpp">KoboldCpp</a>.</div><br>
-        <div>If you want to help improve this tool, you can find the currently maintained source code from this modified version on https://github.com/LostRuins/stable-ui and https://github.com/henk717/stable-ui, which is based off https://github.com/ayunami2000/stable-ui, which derives from the original AI Horde version on https://github.com/aqualxx/stable-ui (Original author aqualxx#5004). Feel free to contribute!</div><br>
-        <div>You can find the KoboldAI community and authors of this fork on the <BaseLink href="https://koboldai.org/discord">KoboldAI Discord</BaseLink></div>
+        <h2>About</h2>
+        <p>
+        This UI is integrated into <strong>stable-diffusion.cpp</strong> and adapted specifically for this project.
+        </p>
+        <p>
+        It is based on <strong>stable-ui</strong>, originally developed as a frontend for <strong>AI Horde</strong> and later adapted for local generation APIs.
+        </p>
+        <p>
+        Upstream projects:
+        <a href="https://github.com/LostRuins/stable-ui" target="_blank" rel="noopener noreferrer">LostRuins/stable-ui</a>,
+        <a href="https://github.com/henk717/stable-ui" target="_blank" rel="noopener noreferrer">henk717/stable-ui</a>,
+        <a href="https://github.com/ayunami2000/stable-ui" target="_blank" rel="noopener noreferrer">ayunami2000/stable-ui</a>,
+        based on the original
+        <a href="https://github.com/aqualxx/stable-ui" target="_blank" rel="noopener noreferrer">aqualxx/stable-ui</a>
+        by <strong>aqualxx</strong>.
+        </p>
+        <p>
+        Special thanks to all maintainers and contributors.
+        </p>
     </div>
   </div>
 </template>
