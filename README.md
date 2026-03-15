@@ -1,10 +1,9 @@
 # stable-ui 🔥
-This is a forked version of Stable UI designed to be used with A1111 compatible API's optimized for use in **[KoboldCpp](https://github.com/LostRuins/koboldcpp).**
-It is no longer compatible with AI Horde, for the AI Horde version check the original StableUI repository.
------
-StableUI is a web user interface designed to generate, save, and view images using Stable Diffusion, with the goal being able to provide Stable Diffusion to anyone for 100% free.
 
-This is achieved using KoboldCpp, which allows for image generation via it's integrated stable-diffusion.cpp backend.
+This UI is integrated into the **stable-diffusion.cpp project** and adapted for use within this application.
+
+The interface is based on **stable-ui**, which was originally developed as a front-end for the **AI Horde**, and later adapted for local generation APIs.
+
 
 <p align="center">
   <img src="https://github.com/aqualxx/stable-ui/blob/main/doc/generate_showcase.png" style="width: 100%" />
@@ -16,8 +15,6 @@ This is achieved using KoboldCpp, which allows for image generation via it's int
 
 ## Features
 
-* Image generation utilizing KoboldCpp
-  * No installation required!
 * Tons of customizable settings
   * Support for Text2Img, Img2Img, and Inpainting
   * Adjust settings for resolution, batch size
@@ -43,6 +40,20 @@ Feel free to contribute! Pull requests are welcome.
 | [VueUse](https://vueuse.org/)                | Tons of useful hooks |
 | [XIcons](https://github.com/07akioni/xicons) | An extensive library of icons |
 | [Original Stable UI](https://aqualxx.github.io/stable-ui/) | Original Stable UI project this was forked from |
+
+## Credits
+
+This UI is derived from the open-source **stable-ui** project and its forks:
+
+* [https://github.com/LostRuins/stable-ui](https://github.com/LostRuins/stable-ui)
+* [https://github.com/henk717/stable-ui](https://github.com/henk717/stable-ui)
+* [https://github.com/ayunami2000/stable-ui](https://github.com/ayunami2000/stable-ui)
+
+The original project was created for **AI Horde** by:
+[https://github.com/aqualxx/stable-ui](https://github.com/aqualxx/stable-ui)
+(Original author: aqualxx)
+
+We thank all contributors who helped develop and maintain the project.
 
 ## License
 
